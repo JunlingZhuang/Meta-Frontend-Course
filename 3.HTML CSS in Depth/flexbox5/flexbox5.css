@@ -1,0 +1,27 @@
+.container {
+  background-color: rgb(140, 140, 245);
+  padding: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+.container li {
+  border-radius: 10px;
+  list-style-type: none;
+  text-align: center;
+  flex: 1 1;
+}
+
+.container a {
+  display: inline-block;
+  padding: 25px;
+  margin: 0px 25px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+}
+
+.container li:hover {
+  background-color: blue;
+}
